@@ -86,10 +86,15 @@
 
 ## ⚠️ Known Issues
 
-- None — everything works as expected  
-  *(Balanced+Quiet CPUFriend profile slightly reduces performance for quieter operation.)*
-
-  *(AMD Radeon RX 550X disabled for compability reasons.)*
+- **None** — everything works as expected  
+  (Balanced+Quiet CPUFriend profile slightly reduces performance for quieter operation.)  
+- **AMD Radeon RX 550X** disabled for compatibility reasons.  
+- **Windows shutdown/restart issue** — If Windows fails to fully shutdown or restart when dual-booting, **disable Fast Startup** in Windows:  
+  1. Open **Control Panel → Hardware and Sound → Power Options**  
+  2. Click **Choose what the power buttons do**  
+  3. Click **Change settings that are currently unavailable**  
+  4. Under **Shutdown settings**, uncheck **Turn on fast startup (recommended)**  
+  5. Click **Save changes** and reboot
 
 ---
 
